@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--HEAD-->
+    <head>
+		<title>Ishmeal Conteh</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="./css/styles.css">
+		<meta name="viewport" content="width=device-width">
+	</head>
+	<!--END_HEAD-->
+
+    <!--Body-->
+    <body class="background">
+    
+    <!--NAV-->
+	<div class="navbar">
+		<a class="active" href="#home">Home</a>	
+		<a href="#about">About</a>	
+		<a href="#github">GitHub</a>	
+		<a href="#contact">Contact</a>
+    </div>
+    <!--END_NAV-->
+    <br>
+    <br>
+    <!--Home-->
+        <!--background video-->
+    <div id="home">
+        <video autoplay muted loop id="Typing_Video">
+            <source src="./images/VIDEO/Typing.mp4" type="video/mp4">
+            <!--height and width not included, using as background-->
+            Your browser does not support HTML5 video.
+        </video>
+    </div>
+        <!--end-background video-->
+        
+        <!--text over background video-->
+    <div class="video_text">
+        <h1 class="white-text">Ishmeal's Portfolio</h1>
+            
+                <p class="center">
+                    <strong>
+                    <q cite="https://quotefancy.com/quote/2781155/H-G-Wells-It-is-a-law-of-nature-we-overlook-that-intellectual-versatility-is-the">
+                    It is a law of nature we overlook, that intellectual versatility 
+                    <br>is the compensation for change, danger, and trouble.
+                    <br>There is no intelligence where there is no change and no need of change.
+                    </q>
+                    <br> — H. G. Wells
+                    <br>
+                    <br>Hello World!!! My name is Ishmeal Conteh.
+                    <br> Welcome to my portfolio website. 
+                    <br>On it, you will get insight into my background and experience.
+                    </strong>
+                </p>
+    </div>
+        <!--text over background video-->
+    
+    <!--End Home-->
+
+    <!--ABOUT-->
+        <div class="row" id="about">
+            <!--left column-->
+            <div class="column_2">
+                <img src="./images/laptop.jpg" alt="developer laptop">
+            </div>
+
+            <!--right column-->
+            <div class="column_1">
+                <h1>About</h1>
+                <p>
+                    With a newfound passion for coding and data analysis, I am attempting a career switch that would incorporate elements of my career up until this point. 
+                    <br>
+                    <br>I have six years of experience as a retail pharmacist, including management roles. I also have five years of experience in biological research as a technician. 
+                    <br>
+                    <br>It is my ambition to work on software or with databases that cater to either of these fields, but I'm open to any opportunity that would give me valuable experience. 
+                    <br>
+                    <br>As a student of <a href="https://www.learncodinganywhere.com" target="blank">The Tech Academy</a>'s Software Developer Boot Camp I am trained and experienced in HTML and CSS. I am currently working on developing skills with JavaScript, SQL, Python and more.
+                    <br>
+                    <br><a href="#contact">Contact</a> me below!
+                </p>
+            </div>
+        </div>
+    <!--END_ABOUT-->
+
+    <!--GitHub-->
+        <div class="row" id="github">
+            <!--left column-->
+            <div class="column_1">
+                <h1>GitHub</h1>
+                <p>
+                    You can view my coding projects on my GitHub profile here:
+                <br>
+                    <p class="center"><a href="https://github.com/codeteh/Tech-Academy-Projects" target="blank">The Tech Academy Github</a></p>
+                </p>
+            </div>
+            <!--right column-->
+            <div class="column_2">
+                <a href="https://github.com/codeteh/Tech-Academy-Projects" target="blank"><img src="images/githublogo.png" alt="github logo"></a>
+            </div>
+        </div>
+
+    <!--End_GitHub-->
+
+    <!--End_Contact-->
+        <div class="row" id="contact">
+            <!--contact iamge, left column-->
+            <div class="column_2 column_tall">
+                <img src="./images/contact.jpg" alt="contact_image">
+            </div>
+            <!--contact_form, right column-->
+            <div class="column_1 column_tall">
+                <h1>Contact</h1>
+                <!--form spree endpoint in action attribute-->
+                <form action="https://formspree.io/f/meqnpedo" method="POST">
+                    <label>Name:</label>
+                        <input type="text" placeholder="Please enter your name here">
+                    <label>Email:</label>
+                        <input type="text" id="Email" name="Email" placeholder="Please enter your email here">
+                    <label>Message:</label>
+                        <input type="text" id="Message" name="Message" placeholder="Please write your message here">
+                        <input type="submit" value="SUBMIT">
+                </form>
+            </div>
+        </div>
+
+    <!--FOOTER-->
+    <footer>
+        <p><!--may remove later...-->
+            <p class="center">&copy; medit8 LLC, <a href="https://www.learncodinganywhere.com/" target="blank">The Tech Academy</a></p>
+        </p>
+    </footer>
+
+    <!--END_FOOTER-->
+
+    </body>
+</html>
